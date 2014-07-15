@@ -1,0 +1,24 @@
+{
+	"name": "phantomjs-decaptcher",
+	"description": "Automatic and manual(typing) solving of CAPTCHAS for phantomjs",
+	"version": "0.0.1",
+	"author": {
+		"name": "Общество",
+		"email": "info@obshtestvo.bg"
+	},
+	"main": "./index.js",
+	"dependencies": {
+        "q": "*",
+        "phantomjs-nodify": "git://github.com/jgonera/phantomjs-nodify.git",
+        "decaptcher": "git+https://github.com/obshtestvo-utilities/node-decaptcher.git",
+        "logger-generator": "git+https://github.com/obshtestvo-utilities/node-logger-generator.git",
+        "downloader": "git+https://github.com/obshtestvo-utilities/node-downloader.git"
+	},
+	"keywords": [
+		"phantomjs",
+		"bridge",
+		"decaptcha",
+		"captcha",
+        "user-input"
+	]
+}
